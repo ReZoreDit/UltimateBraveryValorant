@@ -1,0 +1,5 @@
+1
+competence =Etoiles
+prix =150
+baseCount =1
+maxCount =5

@@ -1,0 +1,18 @@
+garde son arme:0
+un Classic:0
+un Shorty:150
+un Frenzy:450
+un Ghost:500
+un Sheriff:800
+une Stinger:950
+une Spectre:1600
+un Bucky:850
+un Judge:1850
+une Buldog:2050
+une Guardian:2250
+une Phantom:2900
+une Vandal:2900
+un Marshall:950
+un Operator:4750
+une Ares:1550
+une Odin:3200

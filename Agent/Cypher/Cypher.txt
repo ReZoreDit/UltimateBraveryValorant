@@ -1,0 +1,10 @@
+1
+competence =Piege
+prix =200
+baseCount =0
+maxCount =2
+2
+competence =Cage
+prix =100
+baseCount =0
+maxCount =2

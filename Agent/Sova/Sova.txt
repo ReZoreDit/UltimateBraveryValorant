@@ -1,0 +1,10 @@
+1
+competence =Drone
+prix =400
+baseCount =0
+maxCount =1
+2
+competence =Electrofleche
+prix =150
+baseCount =0
+maxCount =2

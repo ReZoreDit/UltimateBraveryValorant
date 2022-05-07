@@ -1,0 +1,10 @@
+1
+competence =Fumi
+prix =200
+baseCount =0
+maxCount =3
+2
+competence =Saut
+prix =150
+baseCount =0
+maxCount =2

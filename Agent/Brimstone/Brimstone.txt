@@ -1,0 +1,15 @@
+1
+competence =Balise
+prix =100
+baseCount =0
+maxCount =2
+2
+competence =Molo
+prix =250
+baseCount =0
+maxCount =1
+3
+competence =Fumi
+prix =100
+baseCount =1
+maxCount =3

@@ -1,0 +1,10 @@
+1
+competence =Feinte
+prix =100
+baseCount =0
+maxCount =2
+2
+competence =Flash
+prix =250
+baseCount =0
+maxCount =2

@@ -1,0 +1,15 @@
+1
+competence =Tp
+prix =150
+baseCount =0
+maxCount =2
+2
+competence =Paranoia
+prix =300
+baseCount =0
+maxCount =1
+3
+competence =Fumi
+prix =100
+baseCount =1
+maxCount =2

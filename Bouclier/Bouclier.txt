@@ -1,0 +1,3 @@
+ne prend pas de bouclier:0
+25:400
+50:1000
