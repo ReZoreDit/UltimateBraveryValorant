@@ -59,25 +59,29 @@ class Competence:
 
 class Agent :
     def __init__(self,nomAgent):
+
+        path_agent = "Agent/" + nomAgent + "/"
         self.competence = []
         self.nomAgent = nomAgent
+        self.ppAgent = path_agent + "splash.png"
+
         nomCompetence = []
         prix = []
         baseCount = []
         maxCount = []
-        Comp_numero = 0
+        spell_number = 0
 
         #Lire fichier config
-        filin = open("Agent/" + nomAgent + "/" + nomAgent + ".txt", "r")
+        filin = open(path_agent + "config.txt", "r")
         lignes = filin.readlines()
         for ligne in lignes:
     
             if ligne[0] == '1' :
-                Comp_numero = 0
+                spell_number = 0
             if ligne[0] == '2' :
-                Comp_numero = 1
+                spell_number = 1
             if ligne[0] == '3' :
-                Comp_numero = 2
+                spell_number = 2
     
             if ligne[0] == 'c':
                 nomCompetence.append(ligne[12:-1])
@@ -90,7 +94,7 @@ class Agent :
                 
             if ligne[0] == 'm':
                 maxCount.append(strtoint(ligne[10]))
-                self.competence.append(Competence(nomCompetence[Comp_numero],prix[Comp_numero],baseCount[Comp_numero],maxCount[Comp_numero]))
+                self.competence.append(Competence(nomCompetence[spell_number],prix[spell_number],baseCount[spell_number],maxCount[spell_number]))
                 
         filin.close()
 
