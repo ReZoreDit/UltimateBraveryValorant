@@ -1,8 +1,8 @@
 1
 competence =Balise
-prix =100
+prix =200
 baseCount =0
-maxCount =2
+maxCount =1
 2
 competence =Molo
 prix =250

@@ -61,7 +61,6 @@ class Agent :
     def __init__(self,nomAgent):
         self.competence = []
         self.nomAgent = nomAgent
-        
         nomCompetence = []
         prix = []
         baseCount = []
@@ -142,7 +141,7 @@ def profile(nom):
 
 
 separation = "-"*25
-joueur = [profile("LeJeanBonUltime"),profile("LeJeanBonUltime2")]
+joueur = [profile("LeJeanBonUltime")]
 selected_Agent = []
 nbrjoueur = len(joueur)
 avancement = 1
@@ -203,9 +202,9 @@ while avancement == 2:
                 else :
                     print(joueur[numero_joueur].myAgent.nomAgent,listeArme[random_arme][0])
                 print(separation)
-                    
+
             if tir == 0:
-                random_bouclier = randBouclier(joueur[numero_joueur]) 
+                random_bouclier = randBouclier(joueur[numero_joueur])
                 if random_bouclier != 0:
                     print(joueur[numero_joueur].myAgent.nomAgent, " doit acheter un bouclier de ", listeBouclier[random_bouclier][0])
                 else:
@@ -219,13 +218,3 @@ while avancement == 2:
 
     print("voulez-vous continuer ?")
     avancement = strtoint(input())
-
-
-
-
-
-
-
-
-
-            

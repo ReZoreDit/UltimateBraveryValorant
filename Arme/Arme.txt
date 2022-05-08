@@ -13,6 +13,6 @@ une Guardian:2250
 une Phantom:2900
 une Vandal:2900
 un Marshall:950
-un Operator:4750
-une Ares:1550
+un Operator:4700
+une Ares:1600
 une Odin:3200

@@ -8,3 +8,8 @@ competence =Flash
 prix =250
 baseCount =0
 maxCount =2
+3
+competence =TP
+prix =200
+baseCount =1
+maxCount =2

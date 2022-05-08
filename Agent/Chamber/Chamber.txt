@@ -1,0 +1,10 @@
+1
+competence =Piege
+prix =150
+baseCount =0
+maxCount =2
+2
+competence =Sheriff
+prix =100
+baseCount =0
+maxCount =8
