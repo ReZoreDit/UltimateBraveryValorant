@@ -53,8 +53,6 @@ frame.pack(expand=YES)
 
 window.mainloop()
 
-window.config(background=bgd)
-
 #cree la frame
 frame = Frame(window, bg = bgd)
 

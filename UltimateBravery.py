@@ -145,7 +145,7 @@ def profile(nom):
 
 
 separation = "-"*25
-joueur = [profile("LeJeanBonUltime")]
+joueur = [profile("LeJeanBonUltime"),profile("SpaceBirdz")]
 selected_Agent = []
 nbrjoueur = len(joueur)
 avancement = 1
