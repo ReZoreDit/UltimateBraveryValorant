@@ -205,7 +205,7 @@ while avancement == 2:
                 print(separation)
                     
             if tir == 0:
-                random_bouclier = randBouclier(joueur[numero_joueur])
+                random_bouclier = randBouclier(joueur[numero_joueur]) 
                 if random_bouclier != 0:
                     print(joueur[numero_joueur].myAgent.nomAgent, " doit acheter un bouclier de ", listeBouclier[random_bouclier][0])
                 else:
